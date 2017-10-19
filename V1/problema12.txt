@@ -1,0 +1,13 @@
+1-Es necesario guardar el valor del PC ya que cuando el proceso vuelva a ser ejecutado 
+necesita saber en que instrucción se había quedado. Para la PSW también es necesario
+guardar su valor ya que al retomar la ejecución del proceso se tiene que conocer el 
+estado en el que se encuentra el procesador.
+
+2-Además del PC y la PSW sería necesario guardar el acumulador, ya que ahí es donde
+se almacena el valor de los cálculos anteriormente realizados.
+
+3-Si,ya que sería necesario recuperar el valor del acumulador anteriormente guardado
+en el SaveContext.
+
+4-Si,necesitariamos incluir en el PCB una nueva variable para guardar el valor del 
+acumulador.

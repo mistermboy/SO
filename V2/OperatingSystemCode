@@ -1,0 +1,23 @@
+21
+YRET // Initial Operation for OS
+// Here interrupt vector
+NOP  // Void for IntVec 0
+YRET
+NOP  // Void for IntVec 1
+YRET
+OS 2 // IntVec 2
+YRET
+NOP  // Void for IntVec 3
+YRET
+NOP  // Void for IntVec 4
+YRET
+NOP  // Void for IntVec 5
+YRET
+OS 6 // IntVec 6
+YRET
+NOP  // Void for IntVec 7
+YRET
+NOP  // Void for IntVec 8
+YRET
+OS 9  // IntVec  9
+YRET

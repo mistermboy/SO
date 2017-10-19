@@ -1,0 +1,15 @@
+// Processor messages
+1,%c %d %d
+3, (PC: @R%d@@, Accumulator: @R%d@@, PSW: @R%d@@ [@R%s@@])\n
+20,_ _ _
+
+// OperatingSystem messages
+21,@RERROR: Missing SIP program!\n
+22,@GProcess [%d] created from program [%s]\n
+23,@RProcess [%d] has generated an exception and is terminating\n
+24,@RProcess [%d] has the processor assigned\n
+25,@RProcess [%d] has requested to terminate\n
+
+//  ComputerSystem messages
+99,@REND of the simulation\n
+

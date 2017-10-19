@@ -1,0 +1,9 @@
+// System Idle Process
+// run NOP + JUMP to NOP indefinitely
+4  // Program size in memory cells
+100 // Priority of process (very low priority)
+
+ADD 1300 317
+NOP
+JUMP -1  // Jump to NOP
+HALT
